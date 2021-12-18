@@ -1,0 +1,48 @@
+.clock {
+  display: flex;
+  height: 300px;
+}
+
+.clock > * {
+  height: 200px;
+  width: 200px;
+}
+.zero {
+  background-image: url(images/zero.jpg);
+}
+
+.one {
+  background-image: url(images/one.jpg);
+}
+
+.two {
+  background-image: url(images/two.jpg);
+}
+
+.three {
+  background-image: url(images/three.jpg);
+}
+
+.four {
+  background-image: url(images/four.jpg);
+}
+
+.five {
+  background-image: url(images/five.jpg);
+}
+
+.six {
+  background-image: url(images/six.jpg);
+}
+
+.seven {
+  background-image: url(images/seven.jpg);
+}
+
+.eight {
+  background-image: url(images/eight.jpg);
+}
+
+.nine {
+  background-image: url(images/nine.jpg);
+}
