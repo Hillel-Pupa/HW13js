@@ -3,10 +3,18 @@
   height: 300px;
 }
 
+.colom {
+  font-size: 200px;
+  line-height: 100%;
+}
+
 .clock > * {
   height: 200px;
-  width: 200px;
+  width: 100px;
+  background-size: 100px 200px;
+  background-repeat: no-repeat;
 }
+
 .zero {
   background-image: url(images/zero.jpg);
 }
