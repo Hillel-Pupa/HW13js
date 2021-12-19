@@ -5,24 +5,24 @@ const container = document.querySelector(".container");
 let imageCount = container.children.length;
 let currentImageIndex = 0;
 const imageWidth = 400;
-btnNext.addEventListener("click", () => {
-  currentImageIndex++;
-  if (currentImageIndex === imageCount - 1) {
-    btnNext.hidden = true;
-  }
-  if (currentImageIndex > 0) {
-    btnPrev.hidden = false;
-  }
-  wrapper.scrollLeft = currentImageIndex * imageWidth;
-});
+setInterval(nextPic, 3000);
 
-btnPrev.addEventListener("click", () => {
-  currentImageIndex--;
-  if (currentImageIndex !== imageCount - 1) {
-    btnNext.hidden = false;
-  }
-  if (currentImageIndex === 0) {
-    btnPrev.hidden = true;
+btnNext.addEventListener("click", nextPic);
+
+btnPrev.addEventListener("click", prevPic);
+
+function nextPic() {
+  currentImageIndex++;
+  if (currentImageIndex === imageCount) {
+    currentImageIndex = 0;
   }
   wrapper.scrollLeft = currentImageIndex * imageWidth;
-});
+}
+
+function prevPic() {
+  currentImageIndex--;
+  if (currentImageIndex === -1) {
+    currentImageIndex = imageCount - 1;
+  }
+  wrapper.scrollLeft = currentImageIndex * imageWidth;
+}
