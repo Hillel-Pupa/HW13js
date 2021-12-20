@@ -15,42 +15,42 @@
   background-repeat: no-repeat;
 }
 
-.zero {
-  background-image: url(images/zero.jpg);
+.digit-0 {
+  background-image: url(images/0.jpg);
 }
 
-.one {
-  background-image: url(images/one.jpg);
+.digit-1 {
+  background-image: url(images/1.jpg);
 }
 
-.two {
-  background-image: url(images/two.jpg);
+.digit-2 {
+  background-image: url(images/2.jpg);
 }
 
-.three {
-  background-image: url(images/three.jpg);
+.digit-3 {
+  background-image: url(images/3.jpg);
 }
 
-.four {
-  background-image: url(images/four.jpg);
+.digit-4 {
+  background-image: url(images/4.jpg);
 }
 
-.five {
-  background-image: url(images/five.jpg);
+.digit-5 {
+  background-image: url(images/5.jpg);
 }
 
-.six {
-  background-image: url(images/six.jpg);
+.digit-6 {
+  background-image: url(images/6.jpg);
 }
 
-.seven {
-  background-image: url(images/seven.jpg);
+.digit-7 {
+  background-image: url(images/7.jpg);
 }
 
-.eight {
-  background-image: url(images/eight.jpg);
+.digit-8 {
+  background-image: url(images/8.jpg);
 }
 
-.nine {
-  background-image: url(images/nine.jpg);
+.digit-9 {
+  background-image: url(images/9.jpg);
 }
